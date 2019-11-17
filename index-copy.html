@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>古代诗文网</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 首部导航 -->
+      <header class="header">
+        <img
+          class="logo"
+          src="https://s2.ax1x.com/2019/11/03/KXtOUA.png"
+          alt="古代诗文网"
+        />
+        <nav>
+          <a href="./index.html">首页</a>
+          <a href="./search.html">搜索页</a>
+        </nav>
+        <div class="search">
+          <input id="searchInput" />
+          <button id="searchBtn">搜索</button>
+        </div>
+      </header>
+      <!-- 分割线 -->
+      <hr />
+      <!-- 主体内容 -->
+      <main>
+        <div class="left">
+          <ul class="poetry-list"></ul>
+        </div>
+        <div class="right">
+          <ul class="poet-list"></ul>
+          <ul class="tag-list"></ul>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
